@@ -1,0 +1,37 @@
+.contactInfoHeading {
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 140px;
+    font-size: larger;
+}
+
+.aboutMeSection {
+    padding-left: 200px;
+    word-wrap: break-word;
+    width: 1500px;
+    text-align: center;
+}
+
+.picOfMe {
+    height: 400px;
+    width: 400px;
+    margin-left: 0;
+    padding-left: 10px;
+
+}
+
+.contactInfo {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.pageHead {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+    font-weight: bold;
+    padding-left: 20px;
+}

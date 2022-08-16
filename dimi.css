@@ -1,0 +1,67 @@
+body {
+    background-color: #ffffff;
+
+}
+
+.mainHeader {
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+    font-weight: bold;
+}
+
+.Heading {
+    text-align: center;
+}
+
+.navagation {
+    color: black;
+}
+
+hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avevaImage {
+    height: 200px;
+    margin-left: 200px;
+}
+
+.imageForIndex {
+    height: 200px;
+    width: 330px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.courseWorkHeading {
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+    font-weight: bold;
+}
+
+.projHeading {
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.leaugeicon {
+    height: 200px;
+    width: 330px;
+}
+
+.projectTitle {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 20px;
+}

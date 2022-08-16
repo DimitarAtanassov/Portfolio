@@ -1,0 +1,19 @@
+.coursesAndPicture {
+    display: flex;
+    padding-top: 20px;
+}
+
+.footerForImg {
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+}
+
+.Gitpic {
+    padding-bottom: 200px;
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+}

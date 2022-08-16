@@ -1,0 +1,36 @@
+.Heading {
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+    text-align: center;
+}
+
+.skillsHead {
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+    padding-top: 10px;
+}
+
+.skills {
+    padding-left: 50px;
+}
+
+.Information {
+    word-wrap: break-word;
+    width: 1500px;
+    text-align: center;
+    padding-left: 300px;
+}
+
+.angPic {
+    height: 300px;
+    width: 300px;
+}
+
+.jsPic {
+    height: 450px;
+    width: 450px;
+}
+
+.pictures {
+    padding-left: 220px;
+}
