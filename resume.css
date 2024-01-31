@@ -1,0 +1,9 @@
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: white; /* Set the color for active and hover states */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add a glowing effect */
+}
+body {
+    background-color: #161a1d; /* Set the desired background color */
+    color: white; /* Set text color to white */
+}

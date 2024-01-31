@@ -1,0 +1,62 @@
+body {
+    background-color: #161a1d; /* Set the desired background color */
+    color: white; /* Set text color to white */
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align projects at the start */
+    padding-left: 300px; /* Adjust the value as needed */
+   
+}
+
+.project-item {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 20px; /* Increased margin for more spacing */
+    overflow: hidden;
+}
+
+.project-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    display: block;
+}
+
+.project-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, height 0.5s; /* Adjust the transition duration for height */
+}
+
+.project-item:hover .project-caption {
+    height: 80%; /* Increase the height to allow more space for the text */
+    opacity: 1;
+}
+.project-caption h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: white; /* Set the color for active and hover states */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add a glowing effect */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px; /* Add space between the heading and navbar */
+    margin-bottom: 20px; /* Add space between the heading and the first project container */
+}

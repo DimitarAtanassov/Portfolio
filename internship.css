@@ -1,0 +1,38 @@
+body {
+    background-color: #161a1d; /* Set the desired background color */
+    color: white; /* Set text color to white */
+}
+
+.Heading {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.Information {
+    word-wrap: break-word;
+    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the content */
+    text-align: center; /* Center text */
+}
+
+.skills {
+    text-align: center; /* Center the skills section */
+    padding-top: 20px;
+}
+
+.skills ul {
+    list-style-type: none; /* Remove bullet points from list items */
+    padding: 0; /* Remove default padding */
+}
+
+.skillsHead {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
+
+.pageHead {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 20px; /* Add margin at the top for better spacing */
+}

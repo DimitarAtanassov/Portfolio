@@ -1,0 +1,41 @@
+.aboutMeSection {
+    text-align: center; /* Center text within the aboutMeSection */
+    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the content */
+}
+
+.aboutMeSection p {
+    text-align: left; /* Align the text to the left within the paragraph */
+    margin: 0 auto; /* Center the paragraph within .aboutMeSection */
+}
+
+.contactInfoHeading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: larger;
+    text-align: center; /* Center the heading */
+}
+
+.pageHead {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px; /* Add margin below the heading for better spacing */
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column; /* Align contact info vertically */
+    align-items: center; /* Center the contact info horizontally */
+    padding-top: 20px;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: white; /* Set the color for active and hover states */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add a glowing effect */
+}
+body {
+    background-color: #161a1d; /* Set the desired background color */
+    color: white; /* Set text color to white */
+}

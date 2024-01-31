@@ -1,0 +1,60 @@
+body {
+    background-color: #161a1d; /* Set the desired background color */
+    color: white; /* Set text color to white */
+}
+
+/* Update the Heading Section styles */
+.Heading {
+    
+    color: white; /* Set text color to white */
+    padding: 5px; 
+    margin: 5px auto;
+    font-family: 'Geologica', sans-serif;
+}
+
+.Heading hr {
+    height: 2px; /* Adjust the height as needed */
+    background-color: #fff; /* Set the line color to white */
+    margin: 5px auto; /* Sets the space around the line*/
+    width: 50%; /* Set the desired width (change as needed) */
+}
+/* Update the Course Work content styles */
+.courseWork {
+    padding: 5px; /*Space between the content of an element and its border, used to add space within an element*/
+    color: white; /* Set text color to white */
+}
+
+/* Update the Work Experience Sections styles */
+.workExperience {
+ 
+    color: white; /* Set text color to white */
+}
+
+.commonImageClass {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    height: 200px;
+    width: 300px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease-in-out; /* Add transition for a smooth effect */
+}
+
+/* Hover effect styles */
+.commonImageClass:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Adjust shadow color and size as needed */
+}
+
+.courseWorkHeading {
+    margin-top: 20px; /* Adjust margin-top as needed */
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: white; /* Set the color for active and hover states */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add a glowing effect */
+}

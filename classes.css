@@ -1,0 +1,46 @@
+.coursesAndPicture {
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between the two divs */
+    align-items: center; /* Center content vertically */
+    padding-top: 20px;
+}
+
+.courseList {
+    text-align: center; /* Center the content within the courseList div */
+}
+
+.footerForImg {
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+}
+
+.Gitpic {
+    font-family: 'Roboto', sans-serif;
+    color: #2E8BC0;
+    text-align: center; /* Center text */
+}
+
+.Gitpic img {
+    max-width: 50%; /* Make the image smaller */
+    height: auto; /* Maintain aspect ratio */
+    padding-bottom: 10px; /* Add some spacing below the image */
+}
+
+body {
+    background-color: #161a1d;
+    color: white;
+}
+
+ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    font-size: 14px; /* Adjust the font size for list items */
+    margin-bottom: 5px; /* Add some spacing between list items */
+}
